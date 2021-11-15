@@ -2,9 +2,9 @@
 
 1) Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
-**Selected** Within a Github action that runs whenever code is pushed 
-Manually run them locally before pushing code
-Run them all after all development is completed
+* Within a Github action that runs whenever code is pushed 
+*Manually run them locally before pushing code
+*Run them all after all development is completed
 
 **Why?** Better to test throughout the develpment fase - easier to fix smaller mistakes than to fix the complete project. One should also allways try to make sure that the master branch is good code, and therefore one should do all necessary tests before combining different modules. Doing it within a github action saves time.
  
